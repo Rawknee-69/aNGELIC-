@@ -1,0 +1,27 @@
+[STORAGE_SYSTEM_FILES]
+LOGS_DIR = "data/logs"
+PDFS_DIR = "data/pdfs"
+PROJECTS_DIR = "data/projects"
+REPOS_DIR = "data/repos"
+SCREENSHOTS_DIR = "data/screenshots"
+SQLITE_DB = "data/db/angelic.db"
+
+[API_KEYS_FOR_MODELS]
+BING = ""
+GOOGLE_SEARCH = ""
+GOOGLE_SEARCH_ENGINE_ID = ""
+CLAUDE = ""
+OPENAI = ""
+GEMINI = ""
+MISTRAL = ""
+GROQ = ""
+NETLIFY = ""
+
+[API_ENDPOINTS_FOR_ONLINE_SEARCHES]
+BING = "https://api.bing.microsoft.com/v7.0/search"
+GOOGLE = "https://www.googleapis.com/customsearch/v1"
+OLLAMA = "http://127.0.0.1:11434"
+
+[LOGGING_DUMPS]
+LOG_PROMPTS = "false"
+LOG_REST_API = "true"
