@@ -22,9 +22,8 @@
   selectedProject = checkListAndSetItem( projectList, "selectedProject", "Select Project");
   selectedModel = checkListAndSetItem( modelList, "selectedModel", "Select Model");
   selectedSearchEngine = checkListAndSetItem( searchEngineList, "selectedSearchEngine", "Select Search Engine");
-
   function openHelpWindow() {
-    const dummyText = "hello this is the help section."; 
+    const dummyText = "For best results according to what you are doing just use these words in your prompt:"; 
     const w = window.open("");
     w.document.write(`
         <!DOCTYPE html>
@@ -34,21 +33,40 @@
                 body {
                     background-color: #282828; /* Dark gray background */
                     margin: 0;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 100vh;
+                    padding: 20px;
+                    font-family: Arial, sans-serif;
                     color: white; /* Text color set to white */
+                }
+                .container {
+                    max-width: 600px;
+                    margin: 0 auto;
+                }
+                .dummy-text {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                .point {
+                    margin-bottom: 10px;
                 }
             </style>
         </head>
         <body>
-            ${dummyText}
+            <div class="container">
+                <div class="dummy-text">${dummyText}</div>
+                <div class="point">1. answer - Provide a lucid and clarifying response concerning the project.</div>
+                <div class="point">2. run - Launch the project and scrutinize for defects.</div>
+                <div class="point">3. deploy - Publish the project securely, guaranteeing zero errors.</div>
+                <div class="point">4. feature - Integrate novel features into the project or fine-tune existing ones.</div>
+                <div class="point">5. bug - Remedy flaws within the project, assuring lasting resolution and no new occurrences.</div>
+                <div class="point">6. report - Generate a comprehensible and insightful project synopsis.</div>
+            </div>
         </body>
         </html>
     `);
     w.document.close();
 }
+
+
 
 	
 
