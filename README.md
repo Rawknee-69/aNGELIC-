@@ -37,7 +37,7 @@
 ## 🎯 Our Mission
 **This Demo video , The time when it was recorded there were small bugs and in this release its already fixed.**
 
-[Project Demo Video](./demo7_1.mp4)
+[Project Demo Video](https://github.com/Rawknee-69/aNGELIC-/assets/65098395/107b8a37-105e-44c9-9cc6-37c636d7af06)
 
 
 Angelic is an advanced AI software engineer that can understand the programmers's instructions and then , breaking it down\ into smaller yet optimal steps, research relevant information needed to write bug free and optimal code. Angelic uses large language models (LLM'S) for planning and reasoning algorithms, and web browsing abilities are developed into the it to give the best result out.
