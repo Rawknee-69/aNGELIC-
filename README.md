@@ -104,9 +104,6 @@ Getting started with the Angelic project is incredibly easy. Follow these simple
 
     playwright install --with-deps
     
-    cd ui
-
-    playwright install --with-deps
     ```
 
 ### 3. Configuring the Language Model
